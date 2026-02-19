@@ -57,7 +57,7 @@ To configure and test Microsoft Entra SSO with AlexisHR, perform the following s
     1. **Create a Microsoft Entra test user** - to test Microsoft Entra single sign-on with B.Simon.
     1. **Assign the Microsoft Entra test user** - to enable B.Simon to use Microsoft Entra single sign-on.
 1. **[Configure AlexisHR SSO](#configure-alexishr-sso)** - to configure the single sign-on settings on application side.
-    1. **[Create AlexisHR test user](#create-alexishr-test-user)** - to have a counterpart of B.Simon in AlexisHR that's linked to the Microsoft Entra representation of user.
+    1. **[Prepare a test user in AlexisHR](#prepare-alexishr-test-user)** - to identify an existing AlexisHR user for testing single sign-on.
 1. **[Test SSO](#test-sso)** - to verify whether the configuration works.
 
 <a name='configure-azure-ad-sso'></a>
@@ -132,9 +132,14 @@ Follow these steps to enable Microsoft Entra SSO.
 
     1. Copy **Assertion Consumer Service URL** value, paste this value into the **Reply URL** text box in the **Basic SAML Configuration** section.
 
-### Create AlexisHR test user
+<a name='prepare-alexishr-test-user'></a>
 
-In this section, you create a user called Britta Simon in AlexisHR. Work with [AlexisHR support team](mailto:support@alexishr.com) to add the users in the AlexisHR platform. Users must be created and activated before you use single sign-on.
+### Prepare a test user in AlexisHR
+
+To test single sign-on, use an existing AlexisHR account that is already active and has an email address matching a user in your Microsoft Entra ID tenant. You do not need to create a new user — any active AlexisHR account is sufficient.
+
+> [!NOTE]
+> If you are setting up this integration as an external IT administrator and do not have an AlexisHR account with the correct domain, ask the AlexisHR account owner to perform the SSO test on your behalf.
 
 ## Test SSO 
 
